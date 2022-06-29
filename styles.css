@@ -255,7 +255,7 @@ button:hover{
     }
     .reset{
         margin-top: 0;
-        width: 70vw;
+        width: 12em;
         height: 2em;
     }
     .tip-amt,.total-amt{
