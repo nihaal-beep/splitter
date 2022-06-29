@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+<link rel ="stylesheet" href="./styles.css">
+<script src="./script.js" defer></script>
+  <title>Tip calculator app</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+<div class="text-box">
+  <ul>
+    <li>SPLI</li>
+    <li>TTER</li>
+  </ul>
+</div>
+<div class="main-grid">
+  <div class="white-box">
+  <div class="error-class">
+  Bill
+  <span class="error-msg invisible error-amt">Can't be zero</span>
+</div>
+  <form class="amount-form">
+  
+  
+  <input class="amount non-grid" dir="rtl">
+ 
+
+  </form>
+  Select Tip %
+  <div class="tip-grid">
+  <button class="tip tip-def" data-val=5>5%</button>
+  <button class="tip tip-def" data-val=10>10%</button>
+  <button class="tip tip-def" data-val=15>15%</button>
+  <button class="tip tip-def" data-val=25>25%</button>
+  <button class="tip tip-def" data-val=50>50%</button>
+  <form class="tip cstm-form">
+    
+    <input placeholder="Custom" class="custom-inpt" dir="rtl">
+
+  </form>
+</div>
+<div class="error-class">
+  Number of People
+  <span class="error-msg invisible error-ppl">Can't be zero</span>
+</div>
+<form class="num-form">
+ 
+  <input class="num-ppl non-grid" dir="rtl">
+  
+</form>
+</div>
+<div class="green-box">
+
+  <div>
+ <p class="green-text"> Tip Amount</p>
+ <small> / person</small>
+</div>
+ <span class="tip-amt">0.00$</span>
+
+<div>
+<p class="green-text">
+  Total</p>
+ <small> / person</small>
+</div>
+ <span class="total-amt">0.00$</span>
+
+<button class="reset">
+  RESET
+</button>
+</div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Nihaal Raichura</a>.
+  </div>
+</body>
+</html>
